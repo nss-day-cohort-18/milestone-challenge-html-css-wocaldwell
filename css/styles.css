@@ -1,0 +1,54 @@
+/*************************************
+GENERAL
+*************************************/
+
+* {
+font-family: 'Exo 2', 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+/*************************************
+HEADER
+*************************************/
+
+header {
+    height: 15%;
+    background-color: #F6FFB8;
+}
+
+#headerPic {
+    display: inline-block;
+    border: 10px solid #FFF;
+    border-radius: 100%;
+    margin-left: 5%;
+}
+
+h1 {
+    display: inline-block;
+    margin: auto;
+    padding: 2%;
+    float: right;
+    margin-right: 2%;
+}
+
+/*************************************
+FOOTER
+*************************************/
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+footer img {
+    height: 40px;
+    margin: 0  2%;
+}
