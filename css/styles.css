@@ -99,12 +99,12 @@ footer {
 MEDIA QUERIES
 *************************************/
 
-@media all and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   .side {
     flex: 1 auto;
   }
 }
-@media all and (min-width: 800px) {
+@media screen and (min-width: 800px) {
   .main-column {
     flex: 3 0px;
   }
@@ -121,6 +121,7 @@ MEDIA QUERIES
     order: 3;
   }
 
-body {
-  padding: 2em;
+  body {
+  max-width: 950px;
+  margin: auto;
 }
