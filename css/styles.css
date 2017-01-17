@@ -15,7 +15,15 @@ a {
 HEADER
 *************************************/
 
+#header-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 #main-head {
+/*    position: fixed;
+    top: 0;*/
     height: 15%;
     background-color: #F6FFB8;
     background: -webkit-linear-gradient(#F6FFB8, #292900);
@@ -57,10 +65,19 @@ ARTICLES CONTAINER
 }
 
 .container > * {
-  padding: 10px;
+  padding: 2%;
   flex: 1 100%;
 }
 
+.side-column-right li {
+  padding: 1%;
+  list-style-type: none;
+}
+
+.side-column-right a {
+text-align: justify;
+
+}
 
 .main-column {
   background: deepskyblue;
