@@ -62,6 +62,7 @@ ARTICLES CONTAINER
   flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
+  margin-top: 25%;
 }
 
 .container > * {
@@ -143,4 +144,8 @@ MEDIA QUERIES
   body {
   max-width: 950px;
   margin: auto;
+}
+
+#header-wrapper {
+  max-width: 950px;
 }
