@@ -15,11 +15,13 @@ a {
 HEADER
 *************************************/
 
-header {
+#main-head {
     height: 15%;
     background-color: #F6FFB8;
     background: -webkit-linear-gradient(#F6FFB8, #292900);
     /*border-bottom: 10px solid #F6FFB8;*/
+    background-image: url("../images/forest-trees-fog.jpg");
+    background-repeat: no-repeat;
 }
 
 #headerPic {
@@ -31,7 +33,7 @@ header {
 }
 
 h1 {
-    display: inline-block;
+    /*display: inline-block;*/
     margin: auto;
     padding: 2%;
     float: right;
