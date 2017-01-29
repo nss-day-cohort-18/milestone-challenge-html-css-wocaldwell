@@ -1,0 +1,151 @@
+/*************************************
+GENERAL
+*************************************/
+
+* {
+font-family: 'Exo 2', 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+/*************************************
+HEADER
+*************************************/
+
+#header-wrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+#main-head {
+/*    position: fixed;
+    top: 0;*/
+    height: 15%;
+    background-color: #F6FFB8;
+    background: -webkit-linear-gradient(#F6FFB8, #292900);
+    /*border-bottom: 10px solid #F6FFB8;*/
+    background-image: url("../images/forest-trees-fog.jpg");
+    background-repeat: no-repeat;
+}
+
+#headerPic {
+    display: inline-block;
+    /*border: 10px solid #F6FFB8;*/
+    border-radius: 100%;
+    margin-left: 5%;
+    padding: 2%;
+}
+
+h1 {
+    /*display: inline-block;*/
+    margin: auto;
+    padding: 2%;
+    float: right;
+    margin-right: 2%;
+}
+
+/*************************************
+ARTICLES CONTAINER
+*************************************/
+
+.container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25%;
+}
+
+.container > * {
+  padding: 2%;
+  flex: 1 100%;
+}
+
+.side-column-right li {
+  padding: 1%;
+  list-style-type: none;
+}
+
+.side-column-right a {
+text-align: justify;
+
+}
+
+.main-column {
+  background: deepskyblue;
+}
+
+.side-column-left {
+  background: gold;
+}
+
+.side-column-right {
+  background: hotpink;
+}
+
+/*************************************
+FOOTER
+*************************************/
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 5%;
+}
+
+footer img {
+    height: 40px;
+    margin: 0  2%;
+}
+
+footer {
+    text-align: right;
+}
+
+/*************************************
+MEDIA QUERIES
+*************************************/
+
+@media screen and (min-width: 600px) {
+  .side {
+    flex: 1 auto;
+  }
+}
+@media screen and (min-width: 800px) {
+  .main-column {
+    flex: 3 0px;
+  }
+
+  .side-column-left {
+    order: 1;
+  }
+
+  .main-column {
+    order: 2;
+  }
+
+  .side-column-right {
+    order: 3;
+  }
+
+  body {
+  max-width: 950px;
+  margin: auto;
+}
+
+#header-wrapper {
+  max-width: 950px;
+}
